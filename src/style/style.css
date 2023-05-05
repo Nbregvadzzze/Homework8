@@ -1,5 +1,6 @@
 body{
     overflow: hidden;
+    background-color: azure;
 }
 .wheel{
     border-radius: 50%;
@@ -58,6 +59,8 @@ body{
     bottom: 0vh;
 }
 @keyframes bikemove{
-    from{left:-25vh}
-    to{left: 10vh}
+    from{
+        left:-25vh
+    }
+    to{left: 200vh}
 }
